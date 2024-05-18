@@ -1,0 +1,19 @@
+name: query_core
+description: The core package flutter_query depends on.
+version: 0.1.0
+repository: https://github.com/jezsung/query/tree/main/packages/query
+
+environment:
+  sdk: ">=2.13.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  async: ^2.11.0
+  clock: ^1.1.1
+  equatable: ^2.0.5
+  meta: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0

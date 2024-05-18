@@ -1,0 +1,24 @@
+name: flutter_query
+description: Widgets that help state management of asynchronous operations such as sending HTTP requests, getting the response, and caching the result.
+version: 0.2.0
+repository: https://github.com/jezsung/query/tree/main/packages/flutter_query
+
+environment:
+  sdk: ">=2.14.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  async: ^2.10.0
+  clock: ^1.1.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  meta: ^1.9.1
+  provider: ^6.0.5
+  query_core: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^2.0.0
+  test: ^1.21.0
